@@ -1,0 +1,8 @@
+HOME_URL = "https://www.plasticosyresinas.com/catalogo/"
+MODIFIER = "?count=36&paged="
+
+XPATH_LIST = "//div[@class="col-md-3 sidebar left-sidebar mobile-hide-sidebar"]/aside/ul/li/a/@href"
+
+XPATH_TITLE = "//h1/text()"
+XPATH_IMG = "//div[@class="inner"]/img/@src"
+XPATH_NAME = "//a[@class="product-loop-title"]/h2/text()"
